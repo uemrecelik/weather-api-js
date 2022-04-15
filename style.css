@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://source.unsplash.com/1300x710/?London');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    margin-top: 10%;
+    background: linear-gradient(90deg, rgba(3, 3, 3, 0.822) 17%, rgba(0, 0, 0, 0.76) 62%);
+    height: 250px;
+    width: 400px;
+    border: solid 0.1px;
+    border-radius: 30px;
+}
+.upwrapper{
+    color: white;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.location{
+    padding-top: 25px;
+}
+.temp{
+    font-size: 50px;
+    display: inline;
+    margin-right: 10px;
+}
+.temp-wrapper{
+    color: white;
+     display: flex;
+     margin-bottom: 30%;
+   
+}
